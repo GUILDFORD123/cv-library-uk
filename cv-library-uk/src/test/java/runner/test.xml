@@ -1,0 +1,14 @@
+<suite name="Suite1" verbose="1" >
+    <test name="Test1">
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="uk.co.library.testsuite.JobSearchTest"/>
+
+        </classes>
+    </test>
+
+</suite>
